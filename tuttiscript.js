@@ -124,3 +124,18 @@ for (var i = 0; i < numero_utente.length; i++){
 
 console.log("La somma delle 4 cifre è " + somma)
 /* /ottavo JSnack */
+
+/* nono JSnack */
+var somma = 0;
+var media = 0;
+
+for(var i=1; i<=10; i++){
+  var cifra = [i];
+  console.log(cifra);
+  somma += parseInt(cifra)
+  media = somma/[i];
+}
+
+console.log(somma)
+console.log(media)
+/*/ nono JSnack */
