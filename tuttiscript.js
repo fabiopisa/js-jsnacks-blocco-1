@@ -80,3 +80,33 @@ for(var i=0; i<6; i++){
 
 console.log(numeri)
 /* /quinto JSnack */
+
+/* sesto JSnack */
+var limite = 5;
+
+var somma =0;
+
+for(var i=1; i<=limite; i++){
+  
+  var numeri_espo = Math.pow(i, 3)
+  console.log(i)
+  console.log(numeri_espo)
+  console.log("--------------")
+  somma += Math.pow(i, 3);
+}
+
+console.log("la somma dei cubi è " + somma)
+/* /sesto JSnack */
+
+/* settimo JSnack */
+var limite_somma =1000;
+var potenza = 1;
+var counter_potenza = 1;
+
+while(potenza < limite_somma){
+ console.log(potenza)
+ console.log("elevo il 2 alla " + counter_potenza)
+ potenza= Math.pow(2, counter_potenza);
+ counter_potenza++;
+}
+/* /settimo JSnack */
