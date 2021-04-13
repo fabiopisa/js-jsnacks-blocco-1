@@ -1,0 +1,3 @@
+lista ordinata: https://playcode.io/756342/
+somma di cubi: https://playcode.io/756411/
+potenze di 2: https://playcode.io/756424/
